@@ -7,4 +7,6 @@ Code and related documents for teaching Nate about computer science.
 
 [SICP](https://mitpress.mit.edu/sicp/full-text/book/book.html)
 
+[Stack Overflow](https://stackoverflow.com/)
+
 
