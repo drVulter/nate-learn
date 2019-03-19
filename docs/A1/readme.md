@@ -1,6 +1,6 @@
-#[Assignment One](https://drvulter.github.io/nate-learn/A1/)
+#Assignment One
 
-This assignment deals with some C programming basics...
+[This assignment](https://drvulter.github.io/nate-learn/A1/.pdf) deals with some C programming basics...
 
 ![dilbert](https://i.pinimg.com/originals/28/6c/cc/286ccc3fbf5e85cc4d37772263b40d21.jpg)
 
