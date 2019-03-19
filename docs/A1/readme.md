@@ -1,4 +1,4 @@
-#Assignment One
+# Assignment One
 
 [This assignment](https://drvulter.github.io/nate-learn/A1/.pdf) deals with some C programming basics...
 
