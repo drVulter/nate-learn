@@ -1,6 +1,7 @@
 Code and related documents for teaching Nate about computer science.
 ## Notes
 - [First Steps](https://drvulter.github.io/nate-learn/Notes/first-steps/)
+
 ## Assignments
 [First Assignment](https://drvulter.github.io/nate-learn/A1/)
 
