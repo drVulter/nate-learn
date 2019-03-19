@@ -1,0 +1,113 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{amsmath, mathtools, amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{color}
+% Code
+\usepackage{listings} 
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+% Margins
+\usepackage{geometry}
+\geometry{margin=1in}
+
+% Graphics
+\usepackage{tikz}
+\usetikzlibrary{matrix} % matrices
+\usepackage{tikz-qtree} % Simple trees
+\usepackage{verbatim}
+
+\setcounter{section}{-1}
+
+\newtheorem{pic}{Figure}
+\numberwithin{pic}{section}
+\newtheorem{lem}{Lemma}
+\numberwithin{lem}{section}
+\newtheorem{thm}{Theorem}
+\numberwithin{thm}{section}
+\newtheorem{cor}{Corollary}
+\numberwithin{cor}{section}
+
+\theoremstyle{definition}
+\newtheorem{ex}{Example}
+\numberwithin{ex}{section}
+\newtheorem{defn}{Definition}
+\theoremstyle{definition}
+\newtheorem{prob}{Problem}
+
+\theoremstyle{remark}
+\newtheorem*{con}{Conjecture}
+\newtheorem{rem}{Remark}
+\newtheorem{cex}{Counterexample}
+
+%%% COMMANDS %%%
+% Sets
+\newcommand{\set}[1]{\ensuremath{\{ #1 \}}} % write sets
+\newcommand{\e}{\ensuremath{\epsilon}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+% Landau
+\newcommand{\Oh}{\mathcal{O}} %%% IN MATH MODE
+\newcommand{\oh}{\mathcal{o}} %%% IN MATH MODE
+% Display style fractions
+\newcommand{\Frac}[2]{\displaystyle \frac{#1}{#2}}
+
+
+% Enumerate
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\renewcommand{\labelenumii}{\roman{enumii}}
+
+% change proof environment
+\renewcommand*{\proofname}{Pf}
+
+% Indentation
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+% Set title
+%\title{X}
+
+\begin{document}
+
+
+%\fancyhead[l]{Quinn Stratton}
+\fancyhead[c]{Command Line Notes}
+%\fancyhead[r]{\today}
+\pagestyle{fancy}
+
+\tableofcontents
+
+Moving through the command line interface is like clicking through folders in the \textit{Finder} application, but with no nice visuals, more capabilities, and more accessibility (i.e. we can get to places that we couldn't get to before). Commands in the \textit{OSX} terminal are executed in a special language called \textit{bash}, which is like python, but used specifically for moving around in the terminal and doing system things. Commands are executed one at a time, being fed into a prompt, for example:\\
+\includegraphics{prompt-ex}\\
+\begin{defn}
+  \underline{Directory}: A directory is a colection of files or other directories, same as a folder in Finder. 
+\end{defn}
+To move through directories we can use the command $cd$.
+\begin{ex}
+  \begin{lstlisting}
+    cd <directory>
+  \end{lstlisting}
+\end{ex}
+Our prompt tells us some useful things, the first part before the colon is our hostname, or the name of our machine. Directly after that is the directory that we are currently in. In the case of the picture above, I am in the directory $/$.\\\\\\
+
+Useful Commands
+\begin{lstlisting}[frame=single,language=bash,basicstyle=\footnotesize, keywordstyle=\color{blue}, commentstyle=\color{violet}]
+  cd <directory-name> # move from current directory to directory with name <directoryname>
+  pwd # Displays what directory you are currently in
+  mkdir <directory-name> # makes a directory called <directory-name>
+  rmdir <directory-name> # removes directory <directory-name>
+  
+\end{lstlisting}
+
+Key objects
+\begin{lstlisting}[frame=single,language=bash,basicstyle=\footnotesize, keywordstyle=\color{blue}, commentstyle=\color{violet}]
+  
+\end{lstlisting}
+\end{document}

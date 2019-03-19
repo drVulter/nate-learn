@@ -1,0 +1,14 @@
+* Basic terminal usage
+* Basic C commands
+- Skeleton of program
+- Variable declaration
+- printf, scanf
+* Boolean Algebra
+- Truth tables, basic operations
+- Notion of equivalency, proving it
+* Recurrence relations, recursive functions
+- fibonacci
+- list example
+- Show tree method
+- Induction????
+- Factorial example 

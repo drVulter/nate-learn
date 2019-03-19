@@ -1,0 +1,28 @@
+* Basics
+** Command Line
+** Github
+** Text editor
+*** Atom/Sublime?
+** Basic Architecture
+*** Von Neumann
+* C
+** Basics
+*** Basic set up
+**** Hello World
+*** Compiling
+**** gcc, etc
+*** Variables
+*** Printing/input
+*** Math 
+** Logic
+** Loops
+*** Examples/Projects
+**** 
+** Functions
+** Arrays
+** Pointers/Memory
+*** Arrays Revisited
+** Recursion
+* Data Structures
+* Algorithms
+** Asymptotic Analysis

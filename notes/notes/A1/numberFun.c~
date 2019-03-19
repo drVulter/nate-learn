@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int value; // Value to be read in and worked with
+
+    printf("Please enter a number: ");
+    scanf("%d", &value);
+
+    // Number games
+    printf("%d times 2 is: %d\n", value, value * 2);
+    printf("%d + 7 = %d\n", value, value + 7);
+    printf("2(%d)^3 + 14 - 2(%d) = %d\n",
+	   value, value, 2*(value * value * value) + 14 - 2*(value));
+    // and more if interested ...
+    return 0;
+}
