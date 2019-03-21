@@ -1,3 +1,7 @@
+/*
+	Simple dynamic programming example
+	for Nate
+*/
 #include<stdio.h>
 
 int main(void)
